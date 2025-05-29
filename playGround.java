@@ -1,32 +1,29 @@
-
-class playground {
+// import java.util.Scanner;
+// class playground
+// {
+//     public static void main(String ... args)
+//     {
+//         Scanner sc=new Scanner(System.in);
+//         System.out.print("Enter a number to check even or odd: ");
+//         int n=sc.nextInt();
+//         String[] s={"Even","odd"};
+//         System.out.println(s[n%2]);
+//         // String s=n%2==0?"Even":"odd";
+//         // System.out.print(s);
+//     }
+// }
+class playground
+{
     public static void main(String ... args)
     {
-        System.out.print(number(50,2));
+        int a=2;
+        int b=3;
+        int c=5;
+        a=b;
+        b=c;
+        c=b;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
-    public static int number(int n,int m)
-    {
-        int temp=0;
-        int sum=0;
-        int sub=0;
-     
-        for(int i=1;i<=n;i++)
-        {
-            
-            if(i%m==0)
-            {
-                temp+=i;
-            }
-            else
-            {
-                
-                sum+=i;
-            }
-               sub=sum-temp;
-            
-        }
-        
-        return sub;
-    }
-   
-   }
+}
