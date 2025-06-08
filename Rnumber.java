@@ -1,4 +1,4 @@
-import java.util.Scanner;
+  import java.util.Scanner;
 class rnumber
 {
     static Scanner sc=new Scanner(System.in);
