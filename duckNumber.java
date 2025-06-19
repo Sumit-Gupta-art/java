@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 class duckNumber
 {
     static Scanner sc=new Scanner(System.in);
