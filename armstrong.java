@@ -1,6 +1,4 @@
-
-
-  import java.util.Scanner;
+import java.util.Scanner;
 
 public class armstrong {
     static Scanner userInput = new Scanner(System.in);
