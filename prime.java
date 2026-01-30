@@ -14,7 +14,7 @@ class prime
         boolean isPrime=true;
         for(int i=2;i<num;i++)
         {
-            if(num%10==0)
+            if(num%i==0)
             {
                 isPrime=false;
                 break;
@@ -40,4 +40,5 @@ class prime
 
       return 0;
     }
+
 }
